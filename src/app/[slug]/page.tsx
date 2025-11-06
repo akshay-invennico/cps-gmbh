@@ -1,20 +1,29 @@
 import React from 'react'
 import Hero from './Hero'
 import ProductDescription from './ProductDescription'
-import { DUMMY_PRODUCT_DATA } from './productDetails'
-import { DUMMY_DETAILS_CONTENT } from './productDetails'
-import ProductsCta from '../ProductsCta'
+import { ALL_PRODUCTS } from './productDetails'
+import ProductsCta from '../products/ProductsCta'
 import Advantages from '@/components/shared/advantages/Advantages'
 import ContactSection from '@/components/shared/contact/Contact'
 import FaqSection from '@/components/shared/faq/FaqSection'
 import { faqData } from '@/components/shared/faq/faqData'
 
+interface ProductPageProps {
+  params: { slug: string };
+}
 
-const page = () => {
+const page: React.FC<ProductPageProps> = async ({ params }) => {
+  const { slug } = await params;
+  const product = ALL_PRODUCTS.find((p) => p.id === slug);
+
+  if (!product) {
+    return <div className="text-center py-20 text-xl">Product not found.</div>;
+  }
+
   return (
     <div>
-      <Hero product={DUMMY_PRODUCT_DATA} />
-      <ProductDescription content={DUMMY_DETAILS_CONTENT} />
+      <Hero product={product} />
+      <ProductDescription content={product.details} />
       <ProductsCta />
       <Advantages />
       <ContactSection />

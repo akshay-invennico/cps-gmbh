@@ -53,7 +53,7 @@ const Dropdown: React.FC<DropdownProps> = ({
       backgroundColor: "transparent",
       border: "none",
       borderBottom: isFocused
-        ? "1.5px solid #9A6AFF"
+        ? "1.5px solid #009FE3"
         : "1px solid rgba(255, 255, 255, 0.4)",
       borderRadius: 0,
       boxShadow: "none",
@@ -64,7 +64,7 @@ const Dropdown: React.FC<DropdownProps> = ({
       minHeight: "38px",
       cursor: "pointer",
       "&:hover": {
-        borderBottom: "1.5px solid #9A6AFF",
+        borderBottom: "1.5px solid #009FE3",
       },
     }),
     singleValue: (provided) => ({
@@ -77,13 +77,13 @@ const Dropdown: React.FC<DropdownProps> = ({
     }),
     placeholder: (provided) => ({
       ...provided,
-      color: "rgba(255, 255, 255, 0.7)",
+      color: "#535353",
     }),
     dropdownIndicator: (provided) => ({
       ...provided,
       color: "#FFFFFF",
       paddingRight: "6px",
-      "&:hover": { color: "#9A6AFF" },
+      "&:hover": { color: "#009FE3" },
     }),
     indicatorSeparator: () => ({ display: "none" }),
     menuPortal: (base) => ({
@@ -100,9 +100,9 @@ const Dropdown: React.FC<DropdownProps> = ({
     option: (styles, { isFocused, isSelected }) => ({
       ...styles,
       backgroundColor: isSelected
-        ? "#9A6AFF"
+        ? "#009FE3"
         : isFocused
-        ? "rgba(154, 106, 255, 0.15)"
+        ? "#009FE3"
         : "transparent",
       color: isSelected ? "#FFFFFF" : "#EDEDED",
       fontWeight: isSelected ? 500 : 400,

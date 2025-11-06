@@ -123,6 +123,7 @@ const LeadForm: React.FC<LeadFormProps> = ({ className, isModal = false }) => {
                       <Field
                         name="fullName"
                         placeholder="Ex: John Doe"
+                        autoComplete="off"
                         className="w-full bg-[#1D1D1B] text-white border-b border-white px-0 py-3 focus:border-[#009FE3] focus:outline-none placeholder:text-[#535353] placeholder:text-sm"
                       />
                       <ErrorMessage name="fullName" component="div" className="text-red-500 text-xs mt-1" />
@@ -133,6 +134,7 @@ const LeadForm: React.FC<LeadFormProps> = ({ className, isModal = false }) => {
                       <Field
                         name="company"
                         placeholder="Ex: CPS GmbH"
+                        autoComplete="off"
                         className="w-full bg-[#1D1D1B] text-white border-b border-white px-0 py-3 focus:border-[#009FE3] focus:outline-none placeholder:text-[#535353] placeholder:text-sm"
                       />
                       <ErrorMessage name="company" component="div" className="text-red-500 text-xs mt-1" />
@@ -146,6 +148,7 @@ const LeadForm: React.FC<LeadFormProps> = ({ className, isModal = false }) => {
                         name="email"
                         type="email"
                         placeholder="Ex: johndoe@example.com"
+                        autoComplete="off"
                         className="w-full bg-[#1D1D1B] text-white border-b border-white px-0 py-3 focus:border-[#009FE3] focus:outline-none placeholder:text-[#535353] placeholder:text-sm"
                       />
                       <ErrorMessage name="email" component="div" className="text-red-500 text-xs mt-1" />
@@ -157,6 +160,7 @@ const LeadForm: React.FC<LeadFormProps> = ({ className, isModal = false }) => {
                         name="phone"
                         type="tel"
                         placeholder="+49 98XXXXXXXX"
+                        autoComplete="off"
                         className="w-full bg-[#1D1D1B] text-white border-b border-white px-0 py-3 focus:border-[#009FE3] focus:outline-none placeholder:text-[#535353] placeholder:text-sm"
                       />
                       <ErrorMessage name="phone" component="div" className="text-red-500 text-xs mt-1" />
@@ -186,6 +190,7 @@ const LeadForm: React.FC<LeadFormProps> = ({ className, isModal = false }) => {
                       name="message"
                       rows={3}
                       placeholder="Tell us briefly how we can assist you"
+                      autoComplete="off"
                       className="w-full bg-[#1D1D1B] text-white border-b border-white px-0 py-3 focus:border-[#009FE3] focus:outline-none placeholder:text-[#535353] placeholder:text-sm"
                     />
                     <ErrorMessage name="message" component="div" className="text-red-500 text-xs mt-1" />

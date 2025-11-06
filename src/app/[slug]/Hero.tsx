@@ -18,9 +18,8 @@ export interface Product {
 const Hero: React.FC<{ product: Product }> = ({ product }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-    const handleDownloadCatalogue = () => {
+  const handleDownloadCatalogue = () => {
     const fileUrl = "https://www.cps-gmbh.net/download/datenblaetter/EC_3010_DS_clear_white_v240111.pdf";
-
     const link = document.createElement("a");
     link.href = fileUrl;
     link.target = "_blank";
@@ -32,10 +31,10 @@ const Hero: React.FC<{ product: Product }> = ({ product }) => {
 
   return (
     <section
-      className={`w-full bg-[#BEE3F3] h-screen flex items-center justify-center font-inter`}
+      className="w-full bg-[#BEE3F3] min-h-screen flex items-center font-inter"
     >
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+      <div className="max-w-7xl mx-auto px-4 w-full">
+        <div className="flex flex-col lg:flex-row items-center lg:items-center justify-between gap-12">
           <div className="lg:w-1/2 space-y-6 text-[#1D1D1B] text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-[54px] font-semibold leading-tight tracking-tight">
               {product.name}
@@ -46,12 +45,18 @@ const Hero: React.FC<{ product: Product }> = ({ product }) => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button 
-                type='button' 
+              <Button
+                type="button"
                 onClick={handleDownloadCatalogue}
                 className="btn btn-primary"
               >
-                <Image src='/icons/download-icon.svg' alt="Download Icon" height={22} width={22} className="mr-2" />
+                <Image
+                  src="/icons/download-icon.svg"
+                  alt="Download Icon"
+                  height={22}
+                  width={22}
+                  className="mr-2"
+                />
                 Download Data Sheet
               </Button>
 

@@ -31,7 +31,7 @@ const ProductCard = ({
 
   const handleClick = () => {
   if (!slug) return;
-  router.push(`${routes.products}/${slug}`);
+  router.push(`/${slug}`);
 };
 
   return (

@@ -1,7 +1,7 @@
 export const PRODUCTS = [
   {
-    id: 1,
-    title: " ECC 1020",
+    id: "ecc-1020",
+    title: "ECC 1020",
     imageSrc: "/assets/products/product1.svg",
     material: "High-clarity Polymer",
     thicknessRange: "25µm – 150µm",
@@ -9,7 +9,7 @@ export const PRODUCTS = [
     category: "Everclear CO2 Extrusion",
   },
   {
-    id: 2,
+    id: "ec-3010-transparent-white",
     title: "EC 3010 transparent & white",
     imageSrc: "/assets/products/product1.svg",
     material: "High-clarity Polymer",
@@ -18,8 +18,8 @@ export const PRODUCTS = [
     category: "Everclear CO2 Extrusion",
   },
   {
-    id: 3,
-    title: " ECC 4060",
+    id: "ecc-4060",
+    title: "ECC 4060",
     imageSrc: "/assets/products/product1.svg",
     material: "High-clarity Polymer",
     thicknessRange: "25µm – 150µm",
@@ -27,7 +27,7 @@ export const PRODUCTS = [
     category: "Everclear CO2 Extrusion",
   },
   {
-    id: 4,
+    id: "p-tex-2000-electra",
     title: "P-tex® 2000 electra",
     imageSrc: "/assets/products/product2.svg",
     material: "Acrylonitrile Butadiene Styrene",
@@ -35,7 +35,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 5,
+    id: "p-tex-2000-hc-high-clear",
     title: "P-tex® 2000 HC high clear",
     imageSrc: "/assets/products/product3.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -44,7 +44,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 6,
+    id: "p-tex-2100-black",
     title: "P-tex® 2100 black",
     imageSrc: "/assets/products/product2.svg",
     material: "Acrylonitrile Butadiene Styrene",
@@ -52,7 +52,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 7,
+    id: "p-tex-3000-colored",
     title: "P-tex® 3000 colored",
     imageSrc: "/assets/products/product3.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -61,7 +61,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 8,
+    id: "p-tex-3000-white",
     title: "P-tex® 3000 white",
     imageSrc: "/assets/products/product2.svg",
     material: "Acrylonitrile Butadiene Styrene",
@@ -69,7 +69,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 9,
+    id: "p-tex-3000-black",
     title: "P-tex® 3000 black",
     imageSrc: "/assets/products/product3.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -78,7 +78,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 10,
+    id: "p-tex-3000-clear",
     title: "P-tex® 3000 clear",
     imageSrc: "/assets/products/product2.svg",
     material: "Acrylonitrile Butadiene Styrene",
@@ -86,7 +86,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 11,
+    id: "p-tex-4082-black",
     title: "P-tex® 4082 black",
     imageSrc: "/assets/products/product3.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -95,7 +95,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 12,
+    id: "p-tex-4504-black",
     title: "P-tex® 4504 black",
     imageSrc: "/assets/products/product2.svg",
     material: "Acrylonitrile Butadiene Styrene",
@@ -103,7 +103,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 13,
+    id: "p-tex-5188-black",
     title: "P-tex® 5188 black",
     imageSrc: "/assets/products/product3.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -112,7 +112,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 14,
+    id: "p-tex-5480-black",
     title: "P-tex® 5480 black",
     imageSrc: "/assets/products/product2.svg",
     material: "Acrylonitrile Butadiene Styrene",
@@ -120,7 +120,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 15,
+    id: "p-tex-5920-black",
     title: "P-tex® 5920 black",
     imageSrc: "/assets/products/product3.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -129,7 +129,7 @@ export const PRODUCTS = [
     category: "P-tex® UHMWPE",
   },
   {
-    id: 16,
+    id: "p-tex-xc",
     title: "P-tex® XC",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -137,7 +137,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 17,
+    id: "p-tex-1820-clear",
     title: "P-tex® 1820 clear",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -145,7 +145,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 18,
+    id: "p-tex-1820-black",
     title: "P-tex® 1820 black",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -153,7 +153,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 19,
+    id: "p-tex-1100-black",
     title: "P-tex® 1100 black",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -161,7 +161,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 20,
+    id: "p-tex-900-htr",
     title: "P-tex® 900 HTR",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -169,7 +169,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 21,
+    id: "p-tex-800-clear-colored",
     title: "P-tex® 800 clear & colored",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -177,7 +177,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 22,
+    id: "tp-455-black-white",
     title: "TP 455 black & white",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -185,7 +185,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 23,
+    id: "tp190",
     title: "TP190",
     imageSrc: "/assets/products/product1.svg",
     material: "Renewable-source Polymers",
@@ -193,7 +193,7 @@ export const PRODUCTS = [
     category: "P-tex® HDPE",
   },
   {
-    id: 24,
+    id: "abs-extrusions",
     title: "ABS extrusions",
     subtitle: "Extrusion Films",
     imageSrc: "/assets/products/product2.svg",
@@ -203,7 +203,7 @@ export const PRODUCTS = [
     category: "ABS panels",
   },
   {
-    id: 25,
+    id: "abs-profiles",
     title: "ABS profiles",
     subtitle: "Extrusion Films",
     imageSrc: "/assets/products/product2.svg",
@@ -213,7 +213,7 @@ export const PRODUCTS = [
     category: "ABS panels",
   },
   {
-    id: 26,
+    id: "pe-1000",
     title: "PE 1000",
     imageSrc: "/assets/products/product3.svg",
     material: "Acrylonitrile Butadiene Styrene",
@@ -221,7 +221,7 @@ export const PRODUCTS = [
     category: "PE 1000 strapping materials",
   },
   {
-    id: 27,
+    id: "t-series-natural",
     title: "T-series natural",
     imageSrc: "/assets/products/product1.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -230,7 +230,7 @@ export const PRODUCTS = [
     category: "Unic Film thin films",
   },
   {
-    id: 28,
+    id: "t-series-uv-natural",
     title: "T-series UV natural",
     imageSrc: "/assets/products/product1.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -239,7 +239,7 @@ export const PRODUCTS = [
     category: "Unic Film thin films",
   },
   {
-    id: 29,
+    id: "c-series",
     title: "C-series",
     imageSrc: "/assets/products/product1.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -248,7 +248,7 @@ export const PRODUCTS = [
     category: "Unic Film thin films",
   },
   {
-    id: 30,
+    id: "f-series",
     title: "F-series",
     imageSrc: "/assets/products/product1.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -257,7 +257,7 @@ export const PRODUCTS = [
     category: "Unic Film thin films",
   },
   {
-    id: 31,
+    id: "fc-series",
     title: "FC-series",
     imageSrc: "/assets/products/product1.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -266,7 +266,7 @@ export const PRODUCTS = [
     category: "Unic Film thin films",
   },
   {
-    id: 32,
+    id: "w-series",
     title: "W-series",
     imageSrc: "/assets/products/product1.svg",
     material: "Ultra-High-Molecular-weight Polyethylene",
@@ -275,7 +275,7 @@ export const PRODUCTS = [
     category: "Unic Film thin films",
   },
   {
-    id: 33,
+    id: "umc-series",
     title: "UMC series",
     imageSrc: "/assets/products/product2.svg",
     material: "Renewable-source Polymers",
@@ -283,7 +283,7 @@ export const PRODUCTS = [
     category: "Unic Film thin films",
   },
   {
-    id: 34,
+    id: "pa6-6",
     title: "PA6.6",
     imageSrc: "/assets/products/product2.svg",
     material: "Renewable-source Polymers",
@@ -291,7 +291,7 @@ export const PRODUCTS = [
     category: "Technical Products",
   },
   {
-    id: 35,
+    id: "pps",
     title: "PPS",
     imageSrc: "/assets/products/product2.svg",
     material: "Renewable-source Polymers",
@@ -299,11 +299,11 @@ export const PRODUCTS = [
     category: "Technical Products",
   },
   {
-    id: 36,
+    id: "pla-pbs-pbat-biobased",
     title: "PLA / PBS / PBAT (Biobased)",
     imageSrc: "/assets/products/product2.svg",
     material: "Renewable-source Polymers",
     applications: "Features: Eco-friendly | Applications: Eco-packaging, Green Engineering Solutions",
     category: "Technical Products",
-  }
+  },
 ];
