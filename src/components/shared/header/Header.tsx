@@ -93,7 +93,7 @@ export default function Header() {
               <Button
                 type="button"
                 onClick={() => setActiveLanguage('EN')}
-                className={`cursor-pointer transition-colors ${activeLanguage === 'EN'
+                className={`cursor-pointer transition-colors font-medium ${activeLanguage === 'EN'
                   ? 'text-[#009FE3]'
                   : 'text-[#1D1D1B] hover:text-[#009FE3]'
                   }`}
@@ -104,7 +104,7 @@ export default function Header() {
               <Button
                 type="button"
                 onClick={() => setActiveLanguage('GE')}
-                className={`cursor-pointer transition-colors ${activeLanguage === 'GE'
+                className={`cursor-pointer transition-colors font-medium ${activeLanguage === 'GE'
                   ? 'text-[#009FE3]'
                   : 'text-[#1D1D1B] hover:text-[#009FE3]'
                   }`}
@@ -115,7 +115,7 @@ export default function Header() {
 
             <Button
               type="button"
-              className="btn btn-primary"
+              className="header-btn"
               onClick={() => setLeadModalOpen(true)}
             >
               Request Info →
@@ -142,7 +142,7 @@ export default function Header() {
           <div className='flex items-center'>
             <Button
               type="button"
-              className="btn btn-primary mr-6"
+              className="header-btn mr-6"
               onClick={() => {
                 setMenuOpen(false);
                 setLeadModalOpen(true);

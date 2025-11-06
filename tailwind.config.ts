@@ -20,6 +20,9 @@ const config: Config = {
                     dark: "#000000",
                 },
             },
+            fontFamily: {
+                fira: ['var(--font-fira-sans)', 'sans-serif'],
+            },
         },
     },
     plugins: [],

@@ -3,7 +3,8 @@
 @import 'leaflet/dist/leaflet.css';
 
 body {
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
 }
 
 @layer components {
@@ -13,6 +14,10 @@ body {
 
   .btn-primary {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-full text-lg font-medium whitespace-nowrap transition duration-200 cursor-pointer border-2 border-[#009FE3] bg-[#009FE3] text-white hover:bg-[#007ab0] focus:ring-4 focus:ring-[#009FE3]/50;
+  }
+
+  .header-btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-medium whitespace-nowrap transition duration-200 cursor-pointer border-2 border-[#009FE3] bg-[#009FE3] text-white hover:bg-[#007ab0] focus:ring-4 focus:ring-[#009FE3]/50;
   }
 
   .btn-outline-primary {
