@@ -19,10 +19,10 @@ const IndustryCard = ({
 }: ProductCardProps) => {
   return (
     <div
-      className={`bg-white border border-[#EDEDED] rounded-lg p-5 flex flex-col justify-between relative overflow-hidden ${className}`}
+      className={`bg-white border border-[#EDEDED] rounded-lg p-6 flex flex-col justify-between relative overflow-hidden ${className}`}
     >
       {/* Image */}
-      <div className="flex justify-left mb-4">
+      <div className="flex justify-left mb-5">
         <Image
           src={imageSrc}
           alt={title}
@@ -33,7 +33,7 @@ const IndustryCard = ({
       </div>
 
       {/* Details */}
-         <h3 className="text-[22px] font-semibold mt-5 mb-3">{title}</h3>
+         <h3 className="text-[22px] font-semibold mb-3">{title}</h3>
           {subtitle && (
             <p className="font-medium text-[#67696B]">{subtitle}</p>
           )}

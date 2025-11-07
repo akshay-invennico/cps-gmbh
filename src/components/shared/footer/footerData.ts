@@ -45,12 +45,12 @@ export const footerData: FooterData = {
   ],
 
   products: [
-    { label: "Micro Films", href: routes.productsSlug },
-    { label: "P-Tex UHMWPE", href: routes.productsSlug },
-    { label: "HDPE Materials", href: routes.productsSlug },
-    { label: "ARIS Plastics", href: routes.productsSlug },
-    { label: "Ship Materials", href: routes.productsSlug },
-    { label: "Everesetlean Extrusion Films", href: routes.productsSlug },
+    { label: "ECC 1020", href: '/ecc-1020' },
+    { label: "P-tex® 2000 electra", href: '/p-tex-2000-electra' },
+    { label: "TP 455 black & white", href: '/tp-455-black-white' },
+    { label: "ECC 4060", href: '/ecc-4060' },
+    { label: "TP190", href: '/tp190' },
+    { label: "P-tex® 5480 black", href: '/p-tex-5480-black' },
     { label: "View all", href: routes.products, highlight: true },
   ],
 

@@ -31,7 +31,7 @@ const Hero: React.FC<{ product: Product }> = ({ product }) => {
 
   return (
     <section
-      className="w-full bg-[#BEE3F3] min-h-screen flex items-center font-inter"
+      className="w-full bg-[#BEE3F3] py-28 md:py-0 md:min-h-screen flex items-center font-inter"
     >
       <div className="max-w-7xl mx-auto px-4 w-full">
         <div className="flex flex-col lg:flex-row items-center lg:items-center justify-between gap-12">

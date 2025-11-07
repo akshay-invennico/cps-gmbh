@@ -25,7 +25,7 @@ const Hero = () => {
 
       <div className="absolute inset-0"></div>
 
-        <h1 className="heading text-3xl sm:text-4xl md:text-5xl lg:text-[54px] text-[#1D1D1B] leading-tight break-words z-20 mb-[300px] mr-[380px]">
+        <h1 className="heading text-3xl sm:text-4xl md:text-5xl lg:text-[54px] text-[#1D1D1B] leading-tight break-words z-20 ml-6 md:ml-0 mb-[300px] md:mr-[380px]">
           High-Performance Films & Plastics.
           <br className="hidden sm:block" />
           Engineered for Precision.

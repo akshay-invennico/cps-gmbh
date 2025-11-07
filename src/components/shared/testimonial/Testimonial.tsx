@@ -33,7 +33,7 @@ const TestimonialSection = () => {
     <section className="bg-[#BEE3F3] py-16 px-4 md:px-8 lg:px-16 overflow-hidden">
 
       <div className="max-w-7xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 mb-4">
+          <div className="inline-flex items-center gap-2 mb-5">
               <span className="w-10 h-[2px] bg-[#1D1D1B]"></span>
               <span className="text-[14px] font-medium border border-[#009FE3] text-[#009FE3] px-4 py-2 rounded-md">
                 Trusted by Industries Worldwide

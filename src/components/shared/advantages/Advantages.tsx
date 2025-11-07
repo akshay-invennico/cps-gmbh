@@ -35,7 +35,7 @@ const Advantages = () => {
                         Partner with CPS GmbH for materials that deliver performance, safety, and trust.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row items-center justify-center my-4 gap-3 sm:gap-4">
+                    <div className="flex flex-col sm:flex-row items-center justify-center mt-4 gap-3 sm:gap-4">
                         <Button
                             type="button"
                             className="btn btn-primary"
@@ -53,8 +53,8 @@ const Advantages = () => {
                     </div>
 
                     <div className="flex flex-col md:flex-row gap-y-6 md:gap-y-0  items-center justify-between w-full mt-6">
-                        <div className="h-[132px] w-[267px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
-                            <div className="mb-2">
+                        <div className="h-[180px] w-[315px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
+                            <div className="mb-4">
                                 <Image src='/icons/advantages/engineer.svg' alt="Earth Icon" height={60} width={49.3} />
                             </div>
                             <p className="text-[22px] font-semibold text-[#1D1D1B] leading-tight">
@@ -62,8 +62,8 @@ const Advantages = () => {
                             </p>
                         </div>
 
-                        <div className="h-[132px] w-[267px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
-                            <div className="mb-2">
+                        <div className="h-[180px] w-[315px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
+                            <div className="mb-4">
                                 <Image src='/icons/advantages/earth.svg' alt="Earth Icon" height={60} width={49.3} />
                             </div>
                             <p className="text-[22px] font-semibold text-[#1D1D1B] leading-tight">
@@ -73,16 +73,16 @@ const Advantages = () => {
                     </div>
 
                     <div className="flex flex-col md:flex-row gap-y-6 md:gap-y-0 items-center justify-center w-full mt-6 gap-x-5">
-                        <div className="h-[132px] w-[267px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
-                            <div className="mb-2">
+                        <div className="h-[180px] w-[315px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
+                            <div className="mb-4">
                                 <Image src='/icons/advantages/certificate.svg' alt="Certificate Icon" height={60} width={49.3} />
                             </div>
                             <p className="text-[22px] font-semibold text-[#1D1D1B] leading-tight">
                                 Certified Quality &<br />Compliance
                             </p>
                         </div>
-                        <div className="h-[132px] w-[267px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
-                            <div className="mb-2">
+                        <div className="h-[180px] w-[315px] flex flex-col items-center justify-center border border-dashed border-[#EDEDED] p-6 rounded-full bg-[#F8F8F8] text-center">
+                            <div className="mb-4">
                                 <Image src='/icons/advantages/sustainability.svg' alt="Sustainability Icon" height={60} width={49.3} />
                             </div>
                             <p className="text-[22px] font-semibold text-[#1D1D1B] leading-tight">

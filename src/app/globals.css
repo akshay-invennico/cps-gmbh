@@ -33,7 +33,7 @@ body {
   }
 
   .heading {
-    @apply font-semibold leading-[62px] text-[44px] md:text-[36px] md:leading-[52px] sm:text-[28px] sm:leading-[40px];
+    @apply font-semibold  leading-[40px] sm:leading-[52px] md:leading-[62px] text-[28px] sm:text-[36px] md:text-[44px];
   }
 }
 

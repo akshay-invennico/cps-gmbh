@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Clock, MapPin } from 'lucide-react';
+import { Phone, Mail, Clock, MapPinned } from 'lucide-react';
 import ContactItem from './ContactItem';
 
 const ContactInfo = () => {
@@ -40,15 +40,15 @@ const ContactInfo = () => {
         </p>
 
         <ContactItem
-          Icon={MapPin}
+          Icon={MapPinned}
           text="Meisenstraße 3, 83101 Germany"
         />
         <ContactItem
-          Icon={MapPin}
+          Icon={MapPinned}
           text="Heisenbergstraße 1, 48691 Germany"
         />
         <ContactItem
-          Icon={MapPin}
+          Icon={MapPinned}
           text="CPS China Co., Ltd 3,Building6,No.14..."
         />
       </div>

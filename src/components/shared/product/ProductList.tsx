@@ -17,7 +17,7 @@ const ProductList = () => {
                   Our Products
                 </span>
               </div>
-              <h1 className="heading mb-6 lg:mb-0 max-w-lg">
+              <h1 className="heading mb-6 lg:mb-0 max-w-xl">
                 Reliable films and plastics for global industries
               </h1>
             </div>
