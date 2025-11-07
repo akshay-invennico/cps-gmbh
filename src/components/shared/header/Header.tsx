@@ -49,14 +49,14 @@ export default function Header() {
 
   const productSubmenu = [
     { label: 'Products Overview', href: routes.products },
-    { label: 'Everclear CO-Extrusion', href: routes.productsSlug },
-    { label: 'Everclear MONO Extrusion', href: routes.productsSlug },
-    { label: 'P-tex® UHMWPE', href: routes.productsSlug },
-    { label: 'P-tex® HDPE', href: routes.productsSlug },
-    { label: 'ABS Platten', href: routes.productsSlug },
-    { label: 'PE 1000 Bandmaterialien', href: routes.productsSlug },
-    { label: 'Unic Film Dünnfolien', href: routes.productsSlug },
-    { label: 'Technische Produkte', href: routes.productsSlug },
+    { label: "ECC 1020", href: '/ecc-1020' },
+    { label: "P-tex® 2000 electra", href: '/p-tex-2000-electra' },
+    { label: "TP 455 black & white", href: '/tp-455-black-white' },
+    { label: "ECC 4060", href: '/ecc-4060' },
+    { label: "TP190", href: '/tp190' },
+    { label: "P-tex® 5480 black", href: '/p-tex-5480-black' },
+    { label: 'ABS extrusions', href: '/abs-extrusions' },
+    { label: 'PE 1000', href: '/pe-1000' },
   ];
 
   return (
@@ -183,10 +183,10 @@ export default function Header() {
 
         {activeMenu === "products" && (
           <div
-            className="absolute top-0 left-[220px] h-full w-[60%] bg-[#1D1D1B] px-10 py-20 transition-opacity"
+            className="hidden md:block absolute top-0 left-[320px] 2xl:left-[800px] h-full max-w-7xl bg-[#1D1D1B] px-2 py-20 transition-opacity"
             onMouseLeave={() => setActiveMenu(null)}
           >
-            <div className="w-fit grid grid-cols-1 gap-y-6 text-white text-lg mt-16 ml-20">
+            <div className="w-fit grid grid-cols-1 gap-y-6 text-white text-lg mt-16">
               {productSubmenu.map((item) => (
                 <Link
                   key={item.label}
